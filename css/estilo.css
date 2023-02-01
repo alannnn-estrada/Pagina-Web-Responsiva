@@ -1,0 +1,11 @@
+html {
+    font-size: 13px;
+}
+
+*{
+    font-family: 'Gugi', cursive;
+}
+
+.navbar{
+    min-height: 90px;
+}
