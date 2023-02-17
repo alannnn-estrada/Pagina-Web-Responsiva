@@ -1,0 +1,30 @@
+//---------------
+// Patron de colores
+//---------------
+
+/*
+ * Estilos del diseño
+ */
+html{
+	font-size: 13px;
+}
+
+.card:hover{
+	box-shadow: 0 0 10px grey;
+}
+
+#chat{
+  position: fixed;
+  width: 250px;
+  height: 40px;
+  bottom:0;
+  right: 20px;
+  background: magenta;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  border-radius: 20px 20px 0 0;
+  cursor: pointer;
+}
