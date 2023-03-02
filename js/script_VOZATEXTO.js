@@ -8,7 +8,7 @@ function decir(texto){
 
 let rec;
     if (!("webkitSpeechRecognition" in window)) {
-    	alert("disculpas, no puedes usar la API");
+    	alert("disculpa, no puedes usar la API, intenta cambiar de navegador:D");
     } else {
     	rec = new webkitSpeechRecognition();
     	rec.lang = "es-MX";

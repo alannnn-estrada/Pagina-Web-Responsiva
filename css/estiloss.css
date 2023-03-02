@@ -162,7 +162,7 @@ nav ul li a:active{
 #seccion4 aside#der input{
 	width: 100%;
 	padding: 10px;
-	margin: 5xp 0;
+	margin: 5xp 0px;
 }
 
 #seccion4 aside#der input[type="text"]{
@@ -181,7 +181,7 @@ nav ul li a:active{
 
 #seccion4 aside#der input[type=" submit"]{
 	background: rgba(100, 0, 100, .5);
-	border: 0;
+	border: 0px;
 }
 
 /*seccion 5*/
