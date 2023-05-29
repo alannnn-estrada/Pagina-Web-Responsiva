@@ -39,13 +39,17 @@
 <canvas id="lienzo"></canvas>
 	<div class="container">
 		<div class="row">
-			<div class="textov mt-4">
-				<label for="texto" class="text-black" style="font-size: 20px;">Ingrese texto para hablar:</label>
-				<input class="textoV" type="text" id="texto" placeholder="ingrese texto">
-				<input class="textoV" type="button" id="hablar" value="Decir">
+			<div class="col-12">
+				<div class="textov mt-4">
+					<label for="texto" class="text-black" style="font-size: 20px;">Ingrese texto para hablar:</label>
+					<input class="textoV" type="text" id="texto" placeholder="Ingrese texto">
+					<input class="textoV" type="button" id="hablar" value="Decir">
+				</div>
 			</div>
-			<div class="textov mt-4" id="textoo"></div>
-			<div class="traducir text-center text-white">
+			<div class="col-12">
+				<div class="textov mt-4" id="textoo"></div>
+			</div>
+			<div class="col-12 text-center text-white">
 				<h2 class="text-white mt-4">Traducir</h2>
 				<label for="traducir_es">
 					<h3>Traducir a CODDEV-AJ</h3>
@@ -54,17 +58,20 @@
 				<input class="form-control" name="traducir_es" id="traducir_es" pattern="[A-Za-z0-9¿?¡!',;.:]*"
 					onkeyup="this.value=this.value.toUpperCase(); traducirCoddevAJ()" type="text"
 					placeholder="Ingrese texto a traducir">
-				<h4><span class="badge bg-success" id="resultado_coddev"></span></h4>
+				<h4><span class="text-white rounded-2 bg-success" id="resultado_coddev"></span></h4>
+				<button class="btn btn-sm btn-secondary mt-1" onclick="copiarResultado('resultado_coddev')">Copiar</button>
 				<br>
-				<label for="traducir_coddev">
+				<label for="traducir_coddev" class="mt-4">
 					<h3>Traducir a ESPAÑOL LATAM</h3>
 				</label>
 				<br>
 				<input class="form-control" name="traducir_coddev" id="traducir_coddev" pattern="[A-Za-z0-9¿?¡!',;.:]*"
 					onkeyup="this.value=this.value.toUpperCase(); traducirEspañolLatam()" type="text"
 					placeholder="Ingrese texto a traducir">
-				<h4><span class="badge bg-primary" id="resultado_es"></span></h4>
+				<h4><span class="text-white rounded-2 bg-primary" id="resultado_es"></span></h4>
+				<button class="btn btn-sm btn-secondary" onclick="copiarResultado('resultado_es')">Copiar</button>
 			</div>
+
 		</div>
 	</div>
 	<footer class="pie-pagina text-center bg-dark text-white fixed-bottom">
