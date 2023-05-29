@@ -4,27 +4,20 @@
 	font-family: Century Gothic;
 
 }
-
-body{
-	background-color: #ededed;
-}
-
-
-div {
-    padding: 50px;
-    margin: 40px;
+.textoV {
+    padding: 40px;
     box-shadow: 0px 0px 12px #ccc;
     background-color: #fff;
     font-size: 30px
 }
 
-input{
+input.textoV{
 	padding: 9px;
 	font-size: 10px;
 	border: solid 1px #aaa;
 	width: 80%;
 }
 
-input[type="button"]{
+input[type="button"].textoV{
 	width: 15%;
 }
